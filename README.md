@@ -6,16 +6,20 @@ LinkedIn: [https://www.linkedin.com/in/poosarn-moolmuang](https://www.linkedin.c
 
 ### MY WEBSITES
 
-Covid-19 Tracker Thailand (Next.js): [https://covidtracker-th.herokuapp.com](https://covidtracker-th.herokuapp.com)
+Covid-19 Tracker Thailand (Next.js): [https://covidtrackerth.now.sh/](https://covidtrackerth.now.sh/)
 
-- Repository: [covid-tracker-th](https://github.com/phumoonlight/covid-tracker-th)
+- Repository: [web-covidtrackerth](https://github.com/phumoonlight/web-covidtrackerth)
 
-Covid-19 Tracker Thailand (Nuxt.js): [https://nuxt-covidtracker-th.herokuapp.com](https://nuxt-covidtracker-th.herokuapp.com)
+Covid-19 Tracker Thailand (Nuxt.js): [https://nuxtcovidtrackerth.now.sh/](https://nuxtcovidtrackerth.now.sh/)
 
-- Repository: [nuxt-covid-tracker-th](https://github.com/phumoonlight/nuxt-covid-tracker-th)
+- Repository: [web-nuxtcovidtrackerth](https://github.com/phumoonlight/web-nuxtcovidtrackerth)
 
 Simple Web Chat: [https://basic-socket.herokuapp.com/](https://basic-socket.herokuapp.com)
 
 - Repository (Server): [basic-socket-server](https://github.com/phumoonlight/basic-socket-server)
 
 - Repository (Client): [basic-socket-client](https://github.com/phumoonlight/basic-socket-client)
+
+Simple Web Image Hosting: [https://imgnexus.now.sh/](https://imgnexus.now.sh/)
+
+- Repository: [web-imgnexus](https://github.com/phumoonlight/web-imgnexus)
