@@ -20,6 +20,6 @@ Simple Web Chat: [https://basic-socket.herokuapp.com/](https://basic-socket.hero
 
 - Repository (Client): [basic-socket-client](https://github.com/phumoonlight/basic-socket-client)
 
-Simple Web Image Hosting: [https://imgnexus.now.sh/](https://imgnexus.now.sh/)
+Upload Images: [https://uploadimg.vercel.app/](https://uploadimg.vercel.app/)
 
-- Repository: [web-imgnexus](https://github.com/phumoonlight/web-imgnexus)
+- Repository: [web-uploadimg](https://github.com/phumoonlight/web-uploadimg)
