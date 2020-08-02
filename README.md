@@ -4,7 +4,7 @@ GitHub Profile: [https://github.com/phumoonlight](https://github.com/phumoonligh
 
 LinkedIn: [https://www.linkedin.com/in/poosarn-moolmuang](https://www.linkedin.com/in/poosarn-moolmuang)
 
-### MY WEBSITES
+### MY WEBSITES (PERSONAL TRAINING PROJECT)
 
 Covid-19 Tracker Thailand (Next.js): [https://covidtrackerth.now.sh/](https://covidtrackerth.now.sh/)
 
