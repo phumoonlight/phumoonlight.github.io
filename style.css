@@ -67,10 +67,6 @@ img#banner {
   img#banner {
     width: 100%;
   }
-
-  .flex-center.link {
-    flex-direction: column;
-  }
 }
 
 main.notfound h1 {
@@ -112,6 +108,7 @@ main.notfound a:hover {
 
 .flex-center {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
