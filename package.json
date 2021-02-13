@@ -1,0 +1,16 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "prod": "cross-env NODE_ENV=production",
+    "build:style:purge": "yarn prod yarn build:style",
+    "build:style": "tailwindcss build ./tailwind-setup.css -o ./tailwind.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

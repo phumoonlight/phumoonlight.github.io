@@ -1,27 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Phumoonlight</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body id="index">
-  <header>
-    <div class="flex-center">
-      <div id="title">PHUMOONLIGHT</div>
-    </div>
-    <div class="flex-center link">
-      <a id="main-link" href="https://github.com/phumoonlight">
-        GITHUB
-      </a>
-      <a id="sub-link" href="https://github.com/phumoonlight/phumoonlight.github.io">
-        REPOSITORY
-      </a>
-    </div>
-    <div class="flex-center">
-      <img id="banner" src="./assets/banner.jpg" alt="banner">
-    </div>
-  </header>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phumoonlight</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./tailwind.css" />
+  </head>
+  <body class="h-screen flex flex-col">
+    <header>
+      <div class="bg-poly-forest text-white py-10">
+        <div class="text-3xl md:text-5xl font-bold pl-10">PHUMOONLIGHT</div>
+        <div class="pl-14">
+          <blockquote
+            class="relative py-6 md:py-12 text-white text-lg md:text-xl flex flex-col md:flex-row gap-2"
+          >
+            <div>"Web developer.</div>
+            <div>Self learner.</div>
+            <div>Can improve.</div>
+            <div>Never perfect."</div>
+          </blockquote>
+          <div class="flex flex-col gap-4 text-2xl w-60">
+            <a
+              class="p-4 rounded-md transition-all hover:text-black hover:bg-white"
+              href="https://github.com/phumoonlight"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="flex items-center gap-2">
+                <div class="w-10">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                    />
+                  </svg>
+                </div>
+                <div>GitHub</div>
+              </div>
+            </a>
+            <a
+              class="p-4 rounded-md transition-all hover:text-black hover:bg-white"
+              href="https://www.linkedin.com/in/poosarn-moolmuang/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="flex items-center gap-2">
+                <div class="w-10">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </div>
+                <div>LinkedIn</div>
+              </div>
+            </a>
+            <a
+              class="p-4 rounded-md transition-all hover:text-black hover:bg-white"
+              href="./assets/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="flex items-center gap-2">
+                <div class="w-10">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </div>
+                <div>Resume</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="py-10 flex flex-col gap-10">
+      <section>
+        <div class="font-bold text-4xl pl-10 pb-10">Skills</div>
+        <div class="flex flex-wrap px-10 md:px-16 gap-4 font-bold">
+          <div>
+            <img
+              class="h-20"
+              src="https://miro.medium.com/max/720/1*LjR0UrFB2a__5h1DWqzstA.png"
+              alt="javascript"
+            />
+            <div class="text-center">Javascript</div>
+          </div>
+          <div>
+            <img
+              class="h-20"
+              src="https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png"
+              alt="typescript"
+            />
+            <div class="text-center">typescript</div>
+          </div>
+          <div>
+            <img
+              class="h-20"
+              src="https://cdn.auth0.com/blog/react-js/react.png"
+              alt="react"
+            />
+            <div class="text-center">react</div>
+          </div>
+          <div>
+            <img
+              class="h-20"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png"
+              alt="next"
+            />
+            <div class="text-center">next</div>
+          </div>
+          <div>
+            <img
+              class="h-20"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png"
+              alt="angular"
+            />
+            <div class="text-center">angular</div>
+          </div>
+          <div>
+            <img
+              class="h-20"
+              src="https://www.linux.com/wp-content/uploads/2020/10/nodejs-logo-png-transparent-svg-vector-freebie-supply-nodejs-png-800_600.png"
+              alt="node"
+            />
+            <div class="text-center">node</div>
+          </div>
+          <div>
+            <img
+              class="h-20"
+              src="https://expressjs.com/images/express-facebook-share.png"
+              alt="express"
+            />
+            <div class="text-center">express</div>
+          </div>
+          <div>
+            <img
+              class="h-20"
+              src="https://www.drupal.org/files/project-images/screenshot_361.png"
+              alt="tailwindcss"
+            />
+            <div class="text-center">tailwindcss</div>
+          </div>
+          <div>
+            <img
+              class="h-20"
+              src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+              alt="antdesign"
+            />
+            <div class="text-center">antdesign</div>
+          </div>
+          <div>
+            <img
+              class="h-20"
+              src="https://www.blognone.com/sites/default/files/externals/e762156cdd001fd43e77dc9c44f08199.png"
+              alt="jquery"
+            />
+            <div class="text-center">jquery</div>
+          </div>
+          <div>
+            <img
+              class="h-20"
+              src="https://pbs.twimg.com/profile_images/946432748276740096/0TXzZU7W_400x400.jpg"
+              alt="mongoose"
+            />
+            <div class="text-center">mongoose</div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="font-bold text-4xl pl-10 pb-10">Education</div>
+        <div class="pl-10 md:pl-16">
+          <div class="text-xl font-bold">
+            Maejo University (Chiang Mai, Thailand)
+          </div>
+          <div class="md:text-lg">Bachelor of Science: Computer Science</div>
+          <div class="opacity-75">August 2016 – June 2020</div>
+        </div>
+      </section>
+      <section>
+        <div class="font-bold text-4xl pl-10 pb-10">Experiences</div>
+        <div class="flex flex-col gap-4">
+          <div class="pl-10 md:pl-16">
+            <div class="text-xl font-bold">
+              Thinknet Co., Ltd. (Chiang Mai, Thailand)
+            </div>
+            <div class="md:text-lg">Internship</div>
+            <div class="opacity-75">May 2019 – October 2019</div>
+          </div>
+          <div class="pl-10 md:pl-16">
+            <div class="text-xl font-bold">
+              Nextzy Technologies Co., Ltd. (Chiang Mai, Thailand)
+            </div>
+            <div class="md:text-lg">Frontend Developer</div>
+            <div class="opacity-75">Sep 2020 – Present</div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="font-bold text-4xl pl-10 pb-10">My Creations</div>
+        <div class="flex flex-col gap-4 pl-10 md:pl-16 text-xl">
+          <div>
+            <a
+              class="hover:text-blue-500"
+              href="https://covidtrackerth.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>https://covidtrackerth.vercel.app/</span>
+            </a>
+          </div>
+          <div>
+            <a
+              class="hover:text-blue-500"
+              href="https://uploadimg.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>https://uploadimg.vercel.app/</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray-700 text-white">
+      <div class="text-2xl pl-10 py-10">footer (...under construction)</div>
+    </footer>
+  </body>
 </html>

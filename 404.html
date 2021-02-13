@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page Not Found</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="notfound">
-    <h1>404</h1>
-    <div class="flex-center">
-      <img src="./assets/bigsmoke-wronghouse.jpg" alt="404">
-    </div>
-    <div class="flex-center">
-      <div class="divider"></div>
-    </div>
-    <h2>PAGE NOT FOUND!</h2>
-    <div class="flex-center">
-      <a href="./index.html">BACK TO HOME</a>
-    </div>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./tailwind.css" />
+  </head>
+  <body>
+    <main class="">
+      <div class="flex justify-center">
+        <img class="w-full" src="./assets/bigsmoke-wronghouse.jpg" alt="404" />
+      </div>
+      <div class="flex flex-col items-center p-4 md:p-10 gap-8">
+        <div class="text-2xl md:text-4xl font-bold">404 PAGE NOT FOUND!</div>
+        <a
+          class="bg-black text-white text-xl md:text-2xl rounded-full px-8 py-4"
+          href="./index.html"
+        >
+          <span>BACK TO HOME</span>
+        </a>
+      </div>
+    </main>
+  </body>
 </html>
