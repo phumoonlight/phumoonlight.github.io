@@ -17,24 +17,29 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+# Every action below is on a major that ships a node24 runtime. Older majors
+# still work, but the runners force them onto node24 anyway and annotate each
+# run with a deprecation warning.
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: 22
+          # Matches the local toolchain, so CI and a dev machine agree.
+          node-version: 24
           cache: npm
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
 
       - run: npm ci
 
       - run: npm run build
 
-      - uses: actions/upload-pages-artifact@v3
+      # Composite action; its pinned upload-artifact is node24 as of v5.
+      - uses: actions/upload-pages-artifact@v5
         with:
           # Where `output: "export"` writes the static site.
           path: ./out
@@ -47,4 +52,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
